@@ -1,4 +1,4 @@
-# LearnAI Basicsto Advance-100-days
+# LearnAI Basics to Advance-100-days
 Start from Today, Every Day and next 100 days learn about AI in simple terms
 
 **AI Basics for 100 Days**
