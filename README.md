@@ -1,7 +1,7 @@
-# LearnAIBasics-100-days
+# LearnAI Deeper than anyone-100-days
 Start from Today, Every Day and next 100 days learn about AI in simple terms
 
-**AI Basics for 100 Days**
+**Start with AI Basics as part of LearnAI Deeper than anyone-100-days**
 
 Take the 100 Days of AI challenge - learn one AI concept a day, from machine learning basics to AI agents in production, in 100 days.
 
