@@ -1,0 +1,215 @@
+# 10 Fundamental AI Concepts Every Data Engineer Should Understand
+
+Before learning **AI Agents, Agentic AI, Retrieval-Augmented Generation (RAG),** or **Generative AI**, it's important to build a strong foundation. These 10 concepts appear repeatedly across modern AI applications and understanding them will make advanced topics much easier.
+
+## 1. Agent
+
+An **AI Agent** is an intelligent software system that can perform tasks on behalf of a user. Unlike a traditional chatbot that simply answers questions, an agent can:
+
+* Understand a goal
+* Plan multiple steps
+* Make decisions
+* Use external tools or APIs
+* Execute tasks with minimal human intervention
+
+**Example:**
+Suppose you ask:
+
+> "Analyze last month's sales data, create visualizations, and email me a summary."
+
+An AI Agent could:
+
+1. Retrieve the sales data.
+2. Analyze it using Python or SQL.
+3. Generate charts.
+4. Write a summary.
+5. Send the email automatically.
+
+This ability to **reason, plan, and act** is what makes AI Agents powerful.
+
+---
+
+## 2. Large Language Model (LLM)
+
+A **Large Language Model (LLM)** is the core intelligence behind modern AI assistants. It is trained on vast amounts of text and learns language patterns, reasoning, coding, and problem-solving.
+
+An LLM can:
+
+* Answer questions
+* Write code
+* Summarize documents
+* Translate languages
+* Explain concepts
+* Generate content
+
+Popular LLMs include:
+
+* GPT (OpenAI)
+* Claude (Anthropic)
+* Llama (Meta)
+* Gemini (Google)
+
+Think of an LLM as the **brain** of an AI Agent.
+
+---
+
+## 3. Prompt
+
+A **Prompt** is simply the instruction or input provided to an AI model. The quality of the output often depends on how clearly the prompt is written.
+
+**Simple Prompt**
+
+> Explain what Azure Databricks is.
+
+**Better Prompt**
+
+> Explain Azure Databricks for beginners using a real-world example and compare it with Azure Synapse.
+
+Better prompts usually produce more useful responses.
+
+---
+
+## 4. System Prompt
+
+A **System Prompt** is an instruction provided by the application developer that defines how the AI should behave throughout the conversation.
+
+It sets the AI's personality, expertise, and boundaries.
+
+**Example**
+
+> You are an experienced Azure Data Engineer. Provide accurate, concise explanations with practical examples.
+
+The user typically does not see this prompt, but it strongly influences the AI's responses.
+
+---
+
+## 5. User Prompt
+
+A **User Prompt** is the question or instruction entered by the end user during a conversation.
+
+Examples:
+
+* Explain Delta Lake.
+* Generate PySpark code to remove duplicates.
+* Find the top AI startups in India.
+
+The AI combines the **System Prompt**, **User Prompt**, and available **Context** to generate its response.
+
+---
+
+## 6. Context
+
+**Context** is all the relevant information available to the AI while answering a question.
+
+Context can include:
+
+* Previous conversation history
+* Uploaded documents
+* Database records
+* Company knowledge
+* Retrieved documents from a search system
+* API responses
+
+The richer the context, the more accurate and relevant the response is likely to be.
+
+---
+
+## 7. Context Window
+
+Every AI model has a limit on how much information it can process at one time. This limit is called the **Context Window**.
+
+A larger context window enables the model to:
+
+* Read lengthy documents
+* Analyze multiple files
+* Maintain longer conversations
+* Reason across more information without losing earlier details
+
+Think of it as the AI's **working memory** during a conversation.
+
+---
+
+## 8. Token
+
+AI models do not process text as complete sentences. Instead, they break it into **tokens**, which may represent:
+
+* Whole words
+* Parts of words
+* Numbers
+* Symbols
+* Punctuation
+
+For example:
+
+> "Azure Databricks is awesome."
+
+This sentence is divided into several tokens before being processed.
+
+Token count affects:
+
+* Cost
+* Processing time
+* Maximum context length
+
+Understanding tokens is essential when designing scalable AI applications.
+
+---
+
+## 9. Embeddings
+
+An **Embedding** is a numerical representation of text that captures its meaning rather than just its exact words.
+
+Instead of storing sentences as plain text, AI converts them into vectors (lists of numbers). Texts with similar meanings end up close together in vector space.
+
+For example:
+
+"How do I learn Python?"
+
+and
+
+"Best way to study Python programming"
+
+have different wording but similar meanings, so their embeddings are close.
+
+Embeddings power:
+
+* Semantic Search
+* Similarity Matching
+* Recommendation Systems
+* Document Retrieval
+* Retrieval-Augmented Generation (RAG)
+
+---
+
+## 10. Vector Database
+
+A **Vector Database** stores and searches embeddings efficiently.
+
+Instead of matching exact keywords, it finds information based on semantic similarity.
+
+Example workflow:
+
+1. Convert documents into embeddings.
+2. Store them in a Vector Database.
+3. Convert the user's question into an embedding.
+4. Find the most similar documents.
+5. Send those documents to the LLM to generate an accurate answer.
+
+Popular Vector Databases include:
+
+* Pinecone
+* ChromaDB
+* Weaviate
+* Milvus
+* Qdrant
+* Azure AI Search (supports vector search)
+
+---
+
+## Final Thoughts
+
+These ten concepts form the foundation of modern AI systems. Whether you're building chatbots, AI Agents, RAG applications, or enterprise copilots, you'll encounter them repeatedly.
+
+Understanding these fundamentals first makes advanced topics such as **Prompt Engineering, Retrieval-Augmented Generation (RAG), Function Calling, MCP (Model Context Protocol), Multi-Agent Systems, and Agentic AI** much easier to learn.
+
+**Learning AI isn't about memorizing buzzwords—it's about understanding how these building blocks work together to create intelligent systems.**
